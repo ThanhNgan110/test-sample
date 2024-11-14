@@ -14,6 +14,7 @@
     "test": "^3.3.0"
   },
   "devDependencies": {
+    "posthtml-include": "^2.0.1",
     "svgo": "^3.3.2"
   }
 }
