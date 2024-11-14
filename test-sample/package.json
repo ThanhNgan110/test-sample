@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html",
-    "dev": "rm -rf dist-dev .parcel-cache && parcel --dist-dir dist-dev src/index.html"
+    "start": "parcel src/index.html"
   },
   "author": "",
   "license": "ISC",
