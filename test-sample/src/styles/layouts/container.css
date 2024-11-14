@@ -1,0 +1,22 @@
+/* Mobile */
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}

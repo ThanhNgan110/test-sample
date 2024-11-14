@@ -1,0 +1,168 @@
+/* Mobile */
+.growing-section {
+  padding: 0 20px;
+  background-color: var(--color-pampas);
+  display: flex;
+  justify-content: center;
+}
+
+.growing-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.content-box .text-primary {
+  margin: 32px 0;
+}
+
+.box-item-1 {
+  background-color: var(--color-silver);
+  position: absolute;
+  width: 370px;
+  height: 370px;
+}
+
+.box-experience {
+  padding: 0 2px;
+  height: 82px;
+  background-color: var(--color-casablanca);
+  position: relative;
+  top: 317px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+  font-weight: var(--weight-medium);
+  line-height: 26px;
+  letter-spacing: 0.3px;
+  border-radius: var(--radius-xl);
+  text-align: center;
+}
+
+.heading-box {
+  font-size: var(--size-1sx);
+  white-space: nowrap;
+}
+
+.subheading-box {
+  font-size: var(--size-3sx);
+  margin-top: 9.24px;
+}
+
+.growing-content {
+  position: relative;
+  max-width: 725px;
+  background-color: var(--color-white);
+  margin-top: 20px;
+  padding: 7.54px 12.4px 2.76px 12.4px;
+}
+
+.list-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 16.32px;
+}
+
+.list-bar-item {
+  font-size: var(--size-sm);
+  font-weight: var(--weight-medium);
+  line-height: 2.6rem;
+  letter-spacing: 0.3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fist-persent {
+  margin-right: 20%;
+}
+
+.second-persent {
+  margin-right: 10%;
+}
+
+.growing-section-bar {
+  border-radius: var(--radius-md-second);
+  background-color: var(--color-pampas);
+  width: 100%;
+  height: 12px;
+}
+
+.growing-section-bar-persent {
+  background-color: var(--color-olive-drab);
+  height: 12px;
+  border-radius: var(--radius-md-second);
+  width: 80%;
+}
+
+.growing-section-bar-persent.persent-second {
+  width: 90%;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .growing-section {
+    padding-top: 80px;
+  }
+
+  .box-item-1 {
+    width: 470px;
+    height: 470px;
+  }
+
+  .box-experience {
+    top: 357px;
+    width: 272px;
+    height: 162px;
+    margin-left: 50px;
+  }
+
+  .heading-box {
+    font-size: var(--size-2xl);
+  }
+
+  .subheading-box {
+    font-size: var(--size-sm);
+    margin-top: 19.24px;
+  }
+
+  .growing-content {
+    margin-top: 50px;
+    padding: 32.54px 52.4px 17.76px 52.4px;
+  }
+}
+
+/* Desktop*/
+@media (min-width: 1200px) {
+  .growing-section {
+    padding-top: 69px;
+  }
+
+  .growing-box {
+    gap: 90px;
+  }
+
+  .box-item-1 {
+    width: 570px;
+    height: 535px;
+  }
+
+  .box-experience {
+    top: 457px;
+    height: 172px;
+    margin-left: 80px;
+  }
+
+  .growing-content {
+    padding: 82.54px 92.4px 57.76px 92.4px;
+    margin-top: 110px;
+  }
+}

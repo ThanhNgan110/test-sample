@@ -1,0 +1,121 @@
+/* Mobile */
+.testimonial-section {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-content {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  margin-bottom: 29px;
+  display: flex;
+}
+
+.testimonial-card-group {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 43.69px;
+}
+
+.testimonial-card {
+  max-width: 566.75px;
+  min-height: 293.87px;
+  border: 1px solid rgba(172, 172, 172, 0.29);
+  padding: 66.24px 67.78px 38.7px 73.59px;
+  border-radius: var(--radius-md);
+}
+
+.testimonial-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.heading-name {
+  font-size: var(--size-md);
+  font-weight: var(--fw-weight-bold);
+  line-height: 2.8rem;
+  letter-spacing: 0.2px;
+  color: var(--color-cod-gray);
+}
+
+.text-location {
+  letter-spacing: 0.2px;
+  color: var(--color-gray);
+}
+
+.testimonial-section-card-text.text {
+  letter-spacing: 0.3px;
+  color: var(--color-pale-sky);
+  margin-top: 22px;
+}
+
+.list-pagination {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 11px;
+}
+
+.item-pagination {
+  width: 32px;
+  height: 4px;
+  background-color: var(--color-olive-drab-rgb);
+}
+
+.item-pagination.active {
+  background-color: var(--color-olive-drab);
+}
+
+.btn-arrow-group {
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 20px;
+  display: flex;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .testimonial-section {
+    padding-top: 64px;
+  }
+
+  .testimonial-content {
+    max-width: unset;
+  }
+
+  .testimonial-card-group {
+    flex-direction: row;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 1200px) {
+  .testimonial-content {
+    align-items: center;
+  }
+
+  .testimonial-card-group {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    margin-top: 43.69px;
+  }
+
+  .testimonial-content .heading-primary {
+    max-width: 810px;
+    text-align: center;
+  }
+
+  .btn-arrow-group {
+    justify-content: flex-end;
+    display: flex;
+  }
+}

@@ -1,0 +1,113 @@
+/* Mobile */
+.vision-section {
+  padding: 40px 0px;
+  display: flex;
+  gap: 33px;
+}
+
+.vision-section-box {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.vision-section-content {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  margin-bottom: 29px;
+  display: flex;
+}
+
+.vision-section-content .heading-primary {
+  margin-bottom: 23px;
+}
+
+.vision-section-content .text-primary {
+  margin-bottom: 16px;
+}
+
+.btn-view-detail {
+  background-color: var(--color-casablanca);
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  padding: 18.5px 31.5px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 21px;
+}
+
+.vision-section-video-box {
+  background-color: var(--color-dusty-gray);
+  justify-content: center;
+  align-items: center;
+  max-width: 647px;
+  width: 100%;
+  height: 521px;
+  display: flex;
+}
+
+.vision-section-video {
+  border: 2px solid var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .vision-section {
+    padding-top: 83px;
+    flex-direction: row;
+  }
+
+  .vision-section-content {
+    align-items: flex-start;
+  }
+
+  .vision-section-box {
+    flex-direction: column;
+  }
+
+  .vision-section-video-box {
+    background-color: var(--color-dusty-gray);
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 521px;
+    display: flex;
+    transform: unset;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .vision-section-video-box {
+    background-color: var(--color-dusty-gray);
+    justify-content: center;
+    align-items: center;
+    width: 647px;
+    max-width: 100%;
+    height: 521px;
+    display: flex;
+    transform: translate(34px, 42px);
+  }
+
+  .vision-section-box {
+    display: flex;
+    flex-direction: row;
+    padding-left: 33px;
+  }
+
+  .vision-section-content {
+    max-width: 100%;
+    padding: 29px;
+    display: flex;
+    max-width: 616px;
+  }
+}

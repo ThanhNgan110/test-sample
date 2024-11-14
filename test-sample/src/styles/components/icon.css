@@ -1,0 +1,114 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-earth {
+  background-image: url("../../assets/icons/earth.svg");
+}
+
+.icon-video {
+  background-image: url("../../assets/icons/watch-video.svg");
+  width: 12px;
+  height: 12px;
+}
+
+.icon-md {
+  width: 65.01px;
+  height: 65.01px;
+}
+
+.icon-sm {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-sx {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-arrow-left {
+  background-image: url("../../assets/icons/arrow-left.svg");
+}
+
+.icon-arrow-left:hover {
+  background-image: url("../../assets/icons/arrow-left.svg");
+}
+
+.icon-arrow-right {
+  background-image: url("../../assets/icons/arrow-right.svg");
+}
+
+.icon-plant {
+  background-image: url("../../assets/icons/tree-plant.svg");
+}
+
+.icon-gmo {
+  background-image: url("../../assets/icons/non-gmo.svg");
+}
+
+.icon-equipment {
+  background-image: url("../../assets/icons/modern-equpment.svg");
+  width: 79.31px;
+  height: 65.01px;
+}
+
+.icon-crops {
+  background-image: url("../../assets/icons/seral-crops.svg");
+}
+
+.icon-check {
+  background-image: url("../../assets/icons/check.svg");
+  width: 16.21px;
+  height: 30px;
+}
+
+.icon-work {
+  background-image: url("../../assets/icons/work-together.svg");
+  width: 72.12px;
+  height: 73.14px;
+}
+
+.icon-heading {
+  width: 24px;
+  height: 24px;
+  background-image: url("../../assets/icons/section-icon.svg");
+}
+
+.icon-arrow {
+  width: 16px;
+  height: 18.4px;
+  background-image: url("../../assets/icons/arrow.svg");
+}
+
+.icon-add {
+  width: 15px;
+  height: 62px;
+  background-image: url("../../assets/icons/add.svg");
+}
+
+.icon-call {
+  background-image: url("../../assets/icons/call.svg");
+}
+
+.icon-email {
+  background-image: url("../../assets/icons/email.svg");
+}
+
+.icon-location {
+  background-image: url("../../assets/icons/location.svg");
+}
+
+.icon-face {
+  background-image: url("../../assets/icons/facebook.svg");
+}
+
+.icon-twitter {
+  background-image: url("../../assets/icons/twitter.svg");
+}
+
+.icon-google {
+  background-image: url("../../assets/icons/google.svg");
+}

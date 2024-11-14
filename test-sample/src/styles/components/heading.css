@@ -1,0 +1,46 @@
+.heading {
+  font-weight: var(--fw-weight-bold);
+}
+
+.heading-primary {
+  font-size: 5.6rem;
+  line-height: 6rem;
+  color: var(--color-ebony-clay);
+}
+
+.heading-secondary {
+  font-size: 2.4rem;
+  line-height: 5rem;
+  color: var(--color-casablanca);
+  letter-spacing: 1.2rem;
+}
+
+.heading-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.86px;
+}
+
+.text-primary {
+  font-size: 1.6rem;
+  font-weight: var(--fw-normal);
+  color: var(--color-mirage);
+  line-height: 2.6rem;
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .text-primary {
+    max-width: 638px;
+  }
+}
+
+/* .text-primary {
+    max-width: 638px;
+  } */
+/* .footer-heading {
+  font-size: var(--size-lg);
+  line-height: 32px;
+  color: var(--color-white);
+} */

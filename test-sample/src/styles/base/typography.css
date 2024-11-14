@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "MuseoModerno";
+  src: url("../../assets/fonts/MuseoModerno-SemiBold.woff") format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("../../assets/fonts/DMSans_18pt-Regular.woff") format("woff");
+  font-weight: 700;
+}
+
+
